@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+header h1{
+	color: #ddddff;
+}
+header p{
+	color:rgba(255,70,70,0.5);
+	margin-bottom: 5px;
+	position: relative;
+	float:left;
+	top: -48px;
+	left:20px;
+	text-shadow: 1px 1px 2px crimson;
+}
+
+
+footer p{
+	color: #a0a0a0;
+}
+footer a{
+	color: #a0a0a0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+h1{
+	color: #1f1f1f;
+}
+h2{
+	color: #001b22;
+}
+h3{
+	color: #000f00;
+}
+h4{
+	color: #0f0f00;
+}
+
+p{
+	color: #003646;
+}
+a{
+	color: #001f28;
+	text-decoration: none;
+	font-weight: 550;
+}
+hr{
+	border-color: #295454;
+	border-width: 2px;
+	border-style: outset;
+}

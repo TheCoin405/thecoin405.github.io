@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+@import url("menu.css");
+@import url("text.css");
+/*
+ *	General design
+ */
+body{
+	background-color: #000;/*#3e4144*/
+	background-image: url("../img/background6.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	background-attachment:fixed;
+	padding: 0% 1% 1% 1%;
+	margin: 0% 1% 1% 0%;
+}
+
+header{
+	display: block;
+	height: 150px;
+	padding-left: 25px;
+	max-width:925px;
+	background-color: #000;
+	background-image: url("../img/header.jpg");
+	border-width: 3px;
+	border-style: ridge;
+	border-color: #999;
+	border-bottom-left-radius: 1px;
+	border-bottom-right-radius: 50px;
+}
+
+main{
+	display:block;
+	padding: 25px;
+	padding-top: 35px;
+	margin-top:-36px;
+	margin-left: 15px;
+	margin-right: 65px;
+	
+	max-width: 845px;
+	
+    background-color: #DDD;
+	border-width: 3px;
+    border-style: ridge;
+    border-color: #999;
+	border-top-style: none;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+aside{
+	display:block;
+	height:50px;
+	width: 50px;
+    float: left;
+    position: absolute;
+	top:50px;
+	right: 100px;
+    
+    background-color: #0080c0;
+    
+    border-width: 3px;
+    border-style: ridge;
+    border-color: #999;
+    border-radius: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+	transition-duration: 1s;
+	transform: rotate(-40deg);
+	overflow: hidden;
+	
+}
+aside:hover{
+	height:250px;
+	width: 200px;
+	transform: rotate(5deg);
+	right:50px;
+	
+}
+footer{
+	display:block;
+    height:20px;
+	width:94%;
+    max-width:935px;
+	padding-left:25px;
+	margin-right:25px;
+    float: left;
+    position: fixed;
+    bottom: -1px;
+    left: 1%;
+    
+    background-color: rgba(15,15,15,0.95);
+    
+    border-width: 2px;
+    border-style: ridge;
+    border-color: #999;
+    
+    border-top-left-radius: 7px;
+    border-top-right-radius: 15px;
+}
+footer > p{
+	margin: 2px;
+}
+
+
