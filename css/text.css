@@ -39,6 +39,10 @@ h4{
 
 p{
 	color: #003646;
+	max-width: 13cm;
+}
+main > p{
+	padding-left:20px;
 }
 a{
 	color: #001f28;
@@ -49,4 +53,17 @@ hr{
 	border-color: #295454;
 	border-width: 2px;
 	border-style: outset;
+	max-width: 14cm;
+	margin-left: 0px;
+}
+.text_ar{
+	text-align: right;
+}
+
+span.ttx{
+	font-size: 10px;
+	vertical-align: top;
+}
+ul{
+	max-width: 13cm;
 }

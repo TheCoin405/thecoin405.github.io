@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+.fig_sfr{
+	
+	font-weight:550;
+    position:relative;
+    top:-30px;
+    text-align:center;
+    float: right;
+	margin: 16px 0px 16px 40px;
+}
+
+.fig_sfr img{
+	box-shadow: 1px 1px 2px black;
+	max-width: 250px;
+    max-height: 250px;
+}
+
+div#fh_box{
+	position: relative;
+	float: right;
+	width: 145px;
+	height: 60px;
+	margin-top:-25px;
+	
+	background-color: #fbbc46;
+	border-color: #ff2b2b;
+	border-radius: 5px;
+	border-style: ridge;
+	border-width: 2px;
+	
+	font-family: sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	transform: rotate(25deg);
+}
+div#fh_box h1{
+	margin:8px 0 1px 0;
+	font-size: 18px;
+	letter-spacing: 0.2em;
+	text-shadow: 1px 1px 3px black;
+	color: #ff0606;
+}
+div#fh_box a{
+	font-size: 10px;
+	text-shadow: 1px 1px 2px #ff2b2b;
+}
