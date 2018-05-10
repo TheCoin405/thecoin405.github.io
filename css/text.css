@@ -25,10 +25,18 @@ footer a{
 
 
 h1{
+	
 	color: #1f1f1f;
 }
+main h1{
+	font-size: 28px;
+}
 h2{
+	
 	color: #001b22;
+}
+main h2{
+	font-size: 20px;
 }
 h3{
 	color: #000f00;
@@ -41,13 +49,17 @@ p{
 	color: #003646;
 	max-width: 13cm;
 }
-main > p{
+main p{
+	
 	padding-left:20px;
 }
 a{
 	color: #001f28;
 	text-decoration: none;
 	font-weight: 550;
+}
+main a{
+	font-size: 14px;
 }
 hr{
 	border-color: #295454;
@@ -66,4 +78,19 @@ span.ttx{
 }
 ul{
 	max-width: 13cm;
+}
+
+section.Double_headline{
+	
+}
+section.Double_headline > h1{
+	letter-spacing: 0.05em;
+    margin-bottom: 1px;
+}
+
+section.Double_headline > p{
+	margin-left:10px;
+    font-size: 14px;
+	margin-top:0px;
+	letter-spacing: 0.05em;
 }

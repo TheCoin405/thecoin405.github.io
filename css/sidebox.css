@@ -1,6 +1,7 @@
 @CHARSET "UTF-8";
 
-aside{
+aside#scb{
+	z-index:0;
     display:block;
     height:50px;
     width: 50px;
@@ -22,7 +23,7 @@ aside{
     overflow: hidden;
     
 }
-aside:hover{
+aside#scb:hover{
     height:250px;
     width: 200px;
     transform: rotate(5deg);
