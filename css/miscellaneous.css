@@ -46,8 +46,23 @@ div#fh_box a{
 	font-size: 10px;
 	text-shadow: 1px 1px 2px #ff2b2b;
 }
-div.locale_select_box{}
+div.locale_select_box{
+	padding:10px;
+	display:block;
+	width: 250px;
+	background-color: silver;
+	border-style: groove;;
+	border-radius: 10px;
+	border-color: teal;
+}
 div.locale_select_box h2{
+	padding-left:15px;
+}
+div.locale_select{
+	display:inline-block;
+	margin: 15px;
+}
+div.locale_select h2{
 	display: inline-block;
 }
 div.locale_select_box a{
@@ -56,4 +71,7 @@ div.locale_select_box a{
 div.locale_select_box img{
 	width: 25px;
 	height: 15px;
+}
+div.locale_select>a>img {
+	vertical-align: middle;
 }
