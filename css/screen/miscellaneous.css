@@ -23,7 +23,7 @@ div#fh_box{
 	width: 145px;
 	height: 60px;
 	
-	background-color: #fbbc46;
+	background-color: #ffd586;/* #fbbc46 */
 	border-color: #ff2b2b;
 	border-radius: 5px;
 	border-style: ridge;
@@ -38,24 +38,27 @@ div#fh_box h1{
 	margin:8px 0 1px 0;
 	font-size: 18px;
 	letter-spacing: 0.2em;
-	text-shadow: 1px 1px 3px black;
+	text-shadow: 1px 1px 1px black;
 	color: #ff0606;
 }
 div#fh_box a{
 	font-size: 10px;
-	text-shadow: 1px 1px 2px #ff2b2b;
+	text-shadow: 1px 1px 10px #ff2b2b;
 }
 div.locale_select_box{
+	margin: auto;
 	padding:10px;
 	display:block;
 	width: 250px;
-	background-color: silver;
+	background-color: aliceblue;
 	border-style: groove;;
 	border-radius: 10px;
-	border-color: teal;
+	border-color: gainsboro;
+	
 }
 div.locale_select_box h2{
-	padding-left:15px;
+	padding-left: 25px;
+    margin-bottom: 0px;
 }
 div.locale_select{
 	display:inline-block;
