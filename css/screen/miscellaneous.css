@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+
+.fig_sfr{
+	display:block;
+	width: 250px;
+	height: 270px;
+	font-weight:550;
+    text-align:center;
+	margin-left:0px;
+   
+	
+}
+.fig_sfr img{
+	box-shadow: 1px 1px 2px black;
+	max-width: 250px;
+    max-height: 250px;
+}
+
+div#fh_box{
+	
+	margin:75px 0 0 75px;
+	
+	width: 145px;
+	height: 60px;
+	
+	background-color: #fbbc46;
+	border-color: #ff2b2b;
+	border-radius: 5px;
+	border-style: ridge;
+	border-width: 2px;
+	
+	font-family: sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	transform: rotate(25deg);
+}
+div#fh_box h1{
+	margin:8px 0 1px 0;
+	font-size: 18px;
+	letter-spacing: 0.2em;
+	text-shadow: 1px 1px 3px black;
+	color: #ff0606;
+}
+div#fh_box a{
+	font-size: 10px;
+	text-shadow: 1px 1px 2px #ff2b2b;
+}
+div.locale_select_box{
+	padding:10px;
+	display:block;
+	width: 250px;
+	background-color: silver;
+	border-style: groove;;
+	border-radius: 10px;
+	border-color: teal;
+}
+div.locale_select_box h2{
+	padding-left:15px;
+}
+div.locale_select{
+	display:inline-block;
+	margin: 15px;
+}
+div.locale_select h2{
+	display: inline-block;
+}
+div.locale_select_box a{
+	font-size: 18px;
+}
+div.locale_select_box img{
+	width: 25px;
+	height: 15px;
+}
+div.locale_select>a>img {
+	vertical-align: middle;
+}
