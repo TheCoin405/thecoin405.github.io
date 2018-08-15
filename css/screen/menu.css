@@ -1,12 +1,17 @@
 @CHARSET "UTF-8";
+/*
+    Firefox border corection at the bottom
 
+*/
 nav a {
   text-decoration: none;
 }
 
 nav{
-    display: flex;
+    display: block;
     position: relative;
+	
+	
     height: 30px;
     margin-right:50px;
     max-width:16cm;
@@ -22,6 +27,7 @@ nav{
     
 }
 
+
 nav ul {
   
     list-style: none;
@@ -35,10 +41,10 @@ nav li {
   
     display: block;
     float: left;
-    padding: 2px 10px 2px 10px;
+    
     position: relative;
 	min-width: 50px;
-	
+	padding: 2px 0px 2px 0px;
 	text-align:center;
 	color: #fff;
     background-color: #4d5f6c;
@@ -61,7 +67,8 @@ nav > ul > li:hover {
 	
 }
 nav li a {
-  color: #fff;
+    color: #fff;
+	padding: 5px 10px 5px 10px;
 }
 
 nav li:hover {
@@ -100,6 +107,9 @@ li#language_options{
 	height:23px;
 	min-width: 1px; /* this is a Chrome width fix */
 }
+li#language_options > ul > li{
+	width:100px;
+}
 li#language_options img{
 	width: 24px;
 	height: 22px;
@@ -110,4 +120,22 @@ li#language_options > ul > li:first-child{
 li#language_options > ul > li > a > img{
 	float:left;
 	margin-right:2px;
+}
+
+@-moz-document url-prefix() {
+    nav {
+       border-color: #555;
+    }
+    
+    nav li{
+        border-style: solid;
+    	border-width: 2px;
+    	border-color: #222;
+    }
+    
+    nav li, nav > ul > li:hover {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #222;
+    }
 }

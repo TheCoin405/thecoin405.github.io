@@ -32,3 +32,13 @@
 	color: #ffd7d7;
 	font-weight: 600;
 }
+
+@-moz-document url-prefix() {
+	
+	.mNoticeBox{
+	   
+	   border-color: #000;
+	   border-width: 2px;
+	}
+	
+}

@@ -45,35 +45,3 @@ div#fh_box a{
 	font-size: 10px;
 	text-shadow: 1px 1px 10px #ff2b2b;
 }
-div.locale_select_box{
-	margin: auto;
-	padding:10px;
-	display:block;
-	width: 250px;
-	background-color: aliceblue;
-	border-style: groove;;
-	border-radius: 10px;
-	border-color: gainsboro;
-	
-}
-div.locale_select_box h2{
-	padding-left: 25px;
-    margin-bottom: 0px;
-}
-div.locale_select{
-	display:inline-block;
-	margin: 15px;
-}
-div.locale_select h2{
-	display: inline-block;
-}
-div.locale_select_box a{
-	font-size: 18px;
-}
-div.locale_select_box img{
-	width: 25px;
-	height: 15px;
-}
-div.locale_select>a>img {
-	vertical-align: middle;
-}

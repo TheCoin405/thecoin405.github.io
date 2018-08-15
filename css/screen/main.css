@@ -30,7 +30,7 @@ body::before{
 body{
 	background-color: #181818;
 	background-image: url("../../img/background_grid.png");
-	
+	margin-top: 1px;
 	
 	
 }
