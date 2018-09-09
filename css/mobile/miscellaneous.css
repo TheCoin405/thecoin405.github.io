@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 
 .fig_sfr{
 	
@@ -17,12 +17,11 @@
 }
 
 div#fh_box{
-	position: relative;
-	z-index:0;
-	float: right;
+	position: inherit;
+	float: left;
 	width: 145px;
 	height: 60px;
-	margin-top:-25px;
+	margin-top: 25px;
 	
 	background-color: #fbbc46;
 	border-color: #ff2b2b;
@@ -34,6 +33,10 @@ div#fh_box{
 	text-align: center;
 	vertical-align: middle;
 	transform: rotate(25deg);
+}
+div#mainSidebar:hover div#fh_box{
+	position: relative;
+	float: right;
 }
 div#fh_box h1{
 	margin:8px 0 1px 0;

@@ -1,0 +1,5 @@
+@charset "UTF-8";
+@import url("mobile/main_small.css");   
+@import url("print/main.css") only print;
+@import url("mobile/noticeboxes.css");
+

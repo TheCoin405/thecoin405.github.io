@@ -1,15 +1,18 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 
 header h1{
 	color: #ddddff;
+	margin: 0px;
+	
+	margin-top: -10px;/*why?*/
 }
 header p{
 	color:rgba(255,70,70,0.5);
 	margin-bottom: 5px;
 	position: relative;
 	float:left;
-	top: -48px;
-	left:20px;
+	top: -18px;
+	left:10px;
 	text-shadow: 1px 1px 2px crimson;
 }
 
@@ -27,26 +30,26 @@ footer a{
 h1{
 	
 	color: #1f1f1f;
-}
-main h1{
-	font-size: 28px;
+	font-size: 18px;
 }
 h2{
 	
 	color: #001b22;
 }
 main h2{
-	font-size: 20px;
+	font-size: 14px;
 }
 h3{
-	font-size: 16px;
+	font-size: 10px;
 	color: #000f00;
 }
 h4{
+	font-size:10px;
 	color: #0f0f00;
 }
 
 p{
+	font-size: 10px;
 	color: #003646;
 	max-width: 13cm;
 }
@@ -57,10 +60,8 @@ main p{
 a{
 	color: #001f28;
 	text-decoration: none;
-	font-weight: 550;
-}
-main a{
-	font-size: 14px;
+	font-weight: 600;
+	font-size: 10px;
 }
 hr{
 	border-color: #295454;
@@ -80,7 +81,9 @@ span.ttx{
 ul{
 	max-width: 13cm;
 }
-
+li{
+	font-size: 10px;
+}
 section.Double_headline{
 	
 }

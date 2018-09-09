@@ -2,15 +2,27 @@
 <html lang="sv-SE">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
         <title>TheCoin405: Profil</title>
         <meta name="description" content="TheCoin405 profil.">
         <meta name="keywords" content="Profil,Utvecklare,Projekt">
         <meta name="author" content="Hans Åhlin">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../../css/main.css" />
         <link rel="alternate" href="../../locale/en-US/profile.html" hreflang="en-US" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        
+        <script>
+            if (navigator.userAgent.match("^.*(Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone).*$")){
+                document.write('<link rel="stylesheet" type="text/css" href="../../css/main_mobile.css" />');
+            } else {
+                document.write('<link rel="stylesheet" type="text/css" href="../../css/main.css" />');
+            }
+        </script>
+        <noscript>
+                <link rel="stylesheet" type="text/css" href="../../css/main.css" />
+        </noscript>
+        <script src="../../js/main.js"></script>
     </head>
     <body>
         <header>
@@ -39,7 +51,7 @@
                         <li><a href="thecoin405.github.io.html">thecoin405.github.io</a></li>
                     </ul>
                 </li>
-                <li><a target="_new" href="https://www.github.com/TheCoin405/">GitHub</a></li>
+                <li><a target="_blank" href="https://www.github.com/TheCoin405/">GitHub</a></li>
                 <li><a href="contact.html">Kontakta mig</a></li>
             </ul>
         </nav>
@@ -47,7 +59,7 @@
             <div id="mainContent">
             <h1>Profil och presentation</h1>
             
-            <p>Hej mitt namn är Hans Åhlin <nobr>a.k.a: TheCoin405</nobr>, <br>
+            <p>Hej mitt namn är Hans Åhlin <span class="nbr">a.k.a: TheCoin405</span>, <br>
             Jag startade min resa inom IT-Värden vid 4års ålder och sedans
             dess så har jag varit aktiv.<br>
             Jag började lära mig logiken och filosofierna bakom datorprogrammering 
@@ -130,122 +142,119 @@
             <hr />
             <h3>Tidslinje / Historik (Ej komplett):</h3>
             <ul>
-                <li>1987 - 2001</li>
-                <ul>
-                    <li>Det hela började när jag var runt 4år och lyckades ta 
-                    mig förbi kiosk1 programmet på Mac II (mac os 5.x) för att 
-                    komma åt spelen som min far inte tyckte att jag skulle spela.</li>
-                    <li>Sedan efter det så höll jag på och experimenterade med 
-                    olika program som ResEdit2 och HyperCard3 och det var under 
-                    den tiden som jag utvecklade mitt intresse för utveckling / Hacking4</li>
-                    <li>Windows 3.11 var det första Windows-systemet som jag testade, 
-                    jag föredrog dock dos, basic och Boreland c++5 när det kom till PC, 
-                    jag gjorde egna dos script och basic program till mig själv 
-                    och vänner mestadels för att hantera PC spelen. Samma sak med Windows 95.</li>
-                    <li>Det var inte förens Windows 98 kom som jag gick över mer 
-                    eller mindre helt till PC/Windows, det var också då jag började 
-                    med HTML 4.x och även Visual Basic 6.</li>
-                    <li>1999 var första gången som jag testade Mandrake Linux6 
-                    men jag tyckte att det var för buggigt.</li>
-                    <li>Skola ECDL, Grundläggande Nätverksteknik, Delar av A+</li>
-                    <li>Mars 2002 – Juli 2003</li>
-	                <ul>
-	                    <li>Mars 2002 så flyttade jag till Mallorca och började jobba 
-	                    som byggarbetare, bartender och tog saneringsuppdrag. 
-	                    Juni så frågade ägaren till Burnout Café som jag arbetade åt 
-	                    om jag kunde skapa en shoppingvagn och designa om webbsidor 
-	                    för att han hade hört att jag var IT intresserad och så på den 
-	                    vägen så började jag jobba som webmaster7 och programmerare8 
-	                    åt Steelform.com9. Ganska snabbt så avancerade jag till lokalt 
-	                    IT ansvarig med bisysslan att hålla koll på konkurrenterna.</li>
-	                </ul>
-                </ul>
-                <li>2003 – 2006</li>
-                <ul>
-                    <li>2003 - 2004(privat hobby projekt) Jag gjorde ett 
-                    administrativt system till ett taxiåkeri med en webbportal.</li>
+                <li>1987 - 2001
                     <ul>
-                        <li>Resurshantering</li>
-                        <li>Personalhantering</li>
-                        <li>Internmeddelanden</li>
-                        <li>Anslagstavla</li>
-                        <li>Rapportering och schemaläggning</li>
-                        <li>Integrering med SPCS</li>
+                        <li>Det hela började när jag var runt 4år och lyckades ta 
+                        mig förbi kiosk1 programmet på Mac II (mac os 5.x) för att 
+                        komma åt spelen som min far inte tyckte att jag skulle spela.</li>
+                        <li>Sedan efter det så höll jag på och experimenterade med 
+                        olika program som ResEdit2 och HyperCard3 och det var under 
+                        den tiden som jag utvecklade mitt intresse för utveckling / Hacking4</li>
+                        <li>Windows 3.11 var det första Windows-systemet som jag testade, 
+                        jag föredrog dock dos, basic och Boreland c++5 när det kom till PC, 
+                        jag gjorde egna dos script och basic program till mig själv 
+                        och vänner mestadels för att hantera PC spelen. Samma sak med Windows 95.</li>
+                        <li>Det var inte förens Windows 98 kom som jag gick över mer 
+                        eller mindre helt till PC/Windows, det var också då jag började 
+                        med HTML 4.x och även Visual Basic 6.</li>
+                        <li>1999 var första gången som jag testade Mandrake Linux6 
+                        men jag tyckte att det var för buggigt.</li>
+                        <li>Skola ECDL, Grundläggande Nätverksteknik, Delar av A+</li>
+                        <li>Mars 2002 – Juli 2003
+                            <ul>
+                                <li>Mars 2002 så flyttade jag till Mallorca och började jobba 
+                                som byggarbetare, bartender och tog saneringsuppdrag. 
+                                Juni så frågade ägaren till Burnout Café som jag arbetade åt 
+                                om jag kunde skapa en shoppingvagn och designa om webbsidor 
+                                för att han hade hört att jag var IT intresserad och så på den 
+                                vägen så började jag jobba som webmaster7 och programmerare8 
+                                åt Steelform.com9. Ganska snabbt så avancerade jag till lokalt 
+                                IT ansvarig med bisysslan att hålla koll på konkurrenterna.</li>
+                            </ul>
+                        </li>
                     </ul>
-                    <li>2004 - 6månaders Projektanställning som huvud utvecklare 
-                        åt marknadsföringsbolag som huvudsakligen höll på med 
-                        lokala reklamkampanjer och marknadsföring.</li>
-                        <ul>
-                            <li>Jag utvecklade ett statistikförande kampanjsystem 
-                            som fungerade som en mall baserad artikelkatalog där 
-                            artiklarna hade olika former av giltighetstid.</li>
-                            <li>Samt ett enklare administrativt system för 
-                            kundinformation/data med kopplingar till kampanjsystemet.</li>
-                        </ul>
-                     <li>Höst en 2004 så började jag efter förfrågningar att söka 
-                     information inom olika verksamhetsområden. Då detta var 
-                     väldigt intressant och lönsamt så fortsatte jag med detta, 
-                     både på uppdrag samt eget initiativ.<br>
-                     En del av det jag sysslade med var:</li>
-                     <ul>
-                        <li>Kartläggning</li>
-                        <li>Headhunting</li>
-                        <li>Verksamhetsanalyser och rapporter</li>
-                        <li>Lägesanalyser och rapporter</li>
-                        <li>Investeringsmöjligheter</li>
-                        <li>Informationsinsamling</li>
-                        <li>Kontaktskapande</li>
-                     </ul>
-                     <li>Februari 2006</li>
-                     <ul>
-                        <li>2006 Året då jag vart utbränd efter ca 2 års kringresande 
-                        och dåliga sovvanor, jag såg inte signalerna och fortsatte för 
-                        jag trodde att det var lugnt så länge jag vilade någon gång ibland. 
-                        Men tillslut sa min kropp ifrån och jag lades in för att jag 
-                        kollapsade och i samband med kollapsen så förlorade jag minnet och 
-                        det tog flera månader innan det började komma tillbaka. 
-                        Jag har fortfarande bara minnesfragment ifrån dom åren. </li>
-                     </ul>
-                </ul>
-                <li>2008 - 2012</li>
-                <ul>
-                    <li>Så började jag att ta mig i rehabiliteringssyfte tillbaka 
-                    ut på arbetsmarknaden igen mestadels för att se hur jag 
-                    fungerade och hur mina begränsningar såg ut.</li>
-                    <li>Jag tog ett heltidssommarvikariat på 3 månader som 
-                    butikssäljare åt Microshop AB. Detta för att själv se hur 
-                    det kändes att jobba igen och hur jag klarade av att hantera 
-                    stressfulla situationer bland folk.</li>
-                    <li>Jag tog på mig flertalet olika projektuppdrag ifrån 
-                    Städkompetens AB för att komma igång med IT arbeten igen.</li>
+                </li>
+                <li>2003 – 2008
                     <ul>
-                        <lir>Webbmaste</li>
-                        <li>Dator service och underhåll</li>
-                        <li>Administratör</li>
+                        <li>2003 - 2004(privat hobby projekt) Jag gjorde ett 
+                        administrativt system till ett taxiåkeri med en webbportal.
+                            <ul>
+                                <li>Resurshantering</li>
+                                <li>Personalhantering</li>
+                                <li>Internmeddelanden</li>
+                                <li>Anslagstavla</li>
+                                <li>Rapportering och schemaläggning</li>
+                                <li>Integrering med SPCS</li>
+                            </ul>
+                        </li>
+                        <li>2004 - 6månaders Projektanställning som huvud utvecklare 
+                            åt marknadsföringsbolag som huvudsakligen höll på med 
+                            lokala reklamkampanjer och marknadsföring.
+                            <ul>
+                                <li>Jag utvecklade ett statistikförande kampanjsystem 
+                                som fungerade som en mall baserad artikelkatalog där 
+                                artiklarna hade olika former av giltighetstid.</li>
+                                <li>Samt ett enklare administrativt system för 
+                                kundinformation/data med kopplingar till kampanjsystemet.</li>
+                            </ul>
+                        </li>
+                        <li>Höst en 2004 så började jag efter förfrågningar att söka 
+                        information inom olika verksamhetsområden. Då detta var 
+                        väldigt intressant och lönsamt så fortsatte jag med detta, 
+                        både på uppdrag samt eget initiativ.<br>
+                        En del av det jag sysslade med var:
+                            <ul>
+                                <li>Kartläggning</li>
+                                <li>Headhunting</li>
+                                <li>Verksamhetsanalyser och rapporter</li>
+                                <li>Lägesanalyser och rapporter</li>
+                                <li>Investeringsmöjligheter</li>
+                                <li>Informationsinsamling</li>
+                                <li>Kontaktskapande</li>
+                            </ul>
+                        </li>
                     </ul>
-                    <li>Jag började på Datorfixet HB som extra personal.</li>
+                </li>
+                <li>2008 - 2012
                     <ul>
-                        <li>Service, installation och reparation, både i butik och på platts.</li>
-                        <li>Webbutveckling</li>
+                        <li>Jag tog ett heltidssommarvikariat på 3 månader som 
+                        butikssäljare åt Microshop AB.</li>
+                        <li>Jag tog på mig flertalet olika projektuppdrag ifrån 
+                        Städkompetens AB för att komma igång med IT arbeten igen.
+                            <ul>
+                                <lir>Webbmaste</li>
+                                <li>Dator service och underhåll</li>
+                                <li>Administratör</li>
+                            </ul>
+                        </li>
+                        <li>Jag började på Datorfixet HB som extra personal.
+                            <ul>
+                                <li>Service, installation och reparation, både i butik och på platts.</li>
+                                <li>Webbutveckling</li>
+                            </ul>
+                        </li>
                     </ul>
-                </ul>
-                <li>2012 – 2014</li>
-                <ul>
-                    <li>Egen företagare EF</li>
-                    
-                </ul>
-                <li>2014-2017/03</li>
-                <ul>
-                    <li>Föräldraledig</li>
-                    <li>Studerade C++, C#, Webbutveckling</li>
+                </li>
+                <li>2012 – 2014
                     <ul>
-                        <li>Programmering 1 - C++, Betyg A</li>
-                        <li>Programmering 1 – C# , Betyg B</li>
-                        <li>Programmering 2 – C#, Betyg A</li>
-                        <li>Webbutveckling 1, Betyg A</li>
-                        <li>Webbutveckling 2, Betyg A</li>
+                        <li>Egen företagare EF</li>
+                        
                     </ul>
-                </ul>
+                </li>
+                <li>2014-2017/03
+                    <ul>
+                        <li>Föräldraledig</li>
+                        <li>Studerade C++, C#, Webbutveckling
+                            <ul>
+                                <li>Programmering 1 - C++, Betyg A</li>
+                                <li>Programmering 1 – C# , Betyg B</li>
+                                <li>Programmering 2 – C#, Betyg A</li>
+                                <li>Webbutveckling 1, Betyg A</li>
+                                <li>Webbutveckling 2, Betyg A</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
             </ul> 
             <hr>   
             <ul>
@@ -286,7 +295,7 @@
         <footer>
             <!-- Footer -->
             <p>Upphovsman: <a href="https://www.github.com/TheCoin405/">Hans Åhlin</a>, 
-            GitHub: <a target="_new" href="https://www.github.com/TheCoin405/">TheCoin405</a></p>
+            GitHub: <a target="_blank" href="https://www.github.com/TheCoin405/">TheCoin405</a></p>
         </footer>
     </body>
 </html>

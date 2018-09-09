@@ -7,9 +7,20 @@
         <meta name="keywords" content="Profile,Developer,Projects">
         <meta name="author" content="Hans Åhlin">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../../css/main.css" />
         <link rel="alternate" href="../../locale/sv-SE/profile.html" hreflang="sv-SE" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<script>
+            if (navigator.userAgent.match("^.*(Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone).*$")){
+                document.write('<link rel="stylesheet" type="text/css" href="../../css/main_mobile.css" />');
+            	document.title = "Mobile!";
+            } else {
+                document.write('<link rel="stylesheet" type="text/css" href="../../css/main.css" />');
+            }
+        </script>
+        <noscript>
+                <link rel="stylesheet" type="text/css" href="../../css/main.css" />
+        </noscript>
+        <script src="../../js/main.js"></script>
         
     </head>
     <body>
@@ -39,7 +50,7 @@
                         <li><a href="thecoin405.github.io.html">thecoin405.github.io</a></li>
                     </ul>
                 </li>
-                <li><a target="_new" href="https://www.github.com/TheCoin405/">GitHub</a></li>
+                <li><a target="_blank" href="https://www.github.com/TheCoin405/">GitHub</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </nav>
@@ -47,7 +58,7 @@
             <div id="mainContent">
 	            <h1>Presentation and profile</h1>
 	            
-	            <p>Hi my name is Hans Åhlin <nobr>a.k.a: TheCoin405</nobr>, <br>
+	            <p>Hi my name is Hans Åhlin <span class="nbr">a.k.a: TheCoin405</span>, <br>
 	            I started at the young age of 4 and I've been active in the 
 	            tech-sceen since then.<br>I started learning computer logic and the principles of 
 	            computer programming at the age of 7.<br>
@@ -189,26 +200,15 @@
 		                            <li>Contact-making</li>
 		                        </ul>
 	                    </ul>
-	                <li>February 2006</li>
+	                <li>2006 - 2012</li>
 	                    <ul>
-	                        <li>2006 The year when I burned out after about 2 years 
-	                        of traveling and bad sleep habits, I did not see the 
-	                        signals and continued because I thought it was all right as 
-	                        long as I sometimes rested. But eventually I collapsed and during the collapse 
-	                        I lost my memory and it took several months before it 
-	                        started to comeback. I still have fragmented memory from those years.</li>
-	                    </ul>
-	                <li>2008 - 2012</li>
-	                    <ul>
-	                        <li>I started to undertake jobs for 
-	                        rehabilitation purposes mostly to see how I managed and 
-	                        how my limitations looked.</li>
+	                        <li>I started to undertake freelance jobs.</li>
 	                        <li>I took a full-time, 3-month job as a 
 	                        retailer for Microshop AB. This to see how it was to 
-	                        work again and how I managed to handle stressful 
-	                        situations among people.</li>
+	                        work under stressful 
+	                        situations with people.</li>
 	                        <li>I took on several project assignments from 
-	                        Städkompetens AB to get started with IT work again.</li>
+	                        Städkompetens AB.</li>
 	                            <ul>
 	                                <li>Webbmaster</li>
 	                                <li>Computer service and maintenance</li>
@@ -274,7 +274,7 @@
         <footer>
             <!-- Footer -->
             <p>Author: <a href="https://www.github.com/TheCoin405/">Hans Åhlin</a>, 
-            GitHub: <a target="_new" href="https://www.github.com/TheCoin405/">TheCoin405</a></p>
+            GitHub: <a target="_blank" href="https://www.github.com/TheCoin405/">TheCoin405</a></p>
         </footer>
     </body>
 </html>

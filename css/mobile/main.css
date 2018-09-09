@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 @import url("menu.css");
 @import url("text.css");
 @import url("sidebox.css");
@@ -6,27 +6,6 @@
 /*
  *	General design
  */
-body::before{
-	content: "";
-	position:fixed;
-	z-index:-1;
-	top:0px;
-    right: 0px;
-    bottom: 0px;
-    left:0px;
-	
-    background-image: url("../../img/background6.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    background-attachment:fixed;
-    margin-top:0px;
-    border-width: 3px;
-    border-style: ridge;
-    border-color: #999;
-    border-left: none;
-	
-}
 body{
 	background-color: #181818;
 	background-image: url("../../img/background_grid.png");
