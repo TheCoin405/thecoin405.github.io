@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/thecoin405
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thecoin405.tech
+  * I am thecoin405 (https://keybase.io/thecoin405) on keybase.
+  * I have a public key ASAmmPJXbrsPYMwVbBlaBxvc1kTuIQc0p3TbjZX6od8iQgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c873ca28d36ee988ca7c08ee7d1dd2b5dcf61b3806c22df03e8203807a975b8d0a",
+      "host": "keybase.io",
+      "kid": "01202698f2576ebb0f60cc156c195a071bdcd644ee210734a774db8d95faa1df22420a",
+      "uid": "8c96705937d2a3aa6a7d019013165619",
+      "username": "thecoin405"
+    },
+    "merkle_root": {
+      "ctime": 1553094598,
+      "hash": "fe41ec97c31c41ccf67fc07e98b063bf61c15b0b6a1224bd0117ccea55790deec0a7f4f8735d10442723fbe079de9c01c8a02df39f8d1bf02a574034d7259b47",
+      "hash_meta": "59dc0413ab557d678c578ca2e659b9cf0075c8c7c1d71fe876b9948c312ff2c2",
+      "seqno": 4988195
+    },
+    "service": {
+      "entropy": "2Z/xGh5JAQNiVbhAvLsOUF0i",
+      "hostname": "thecoin405.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553094632,
+  "expire_in": 504576000,
+  "prev": "8571d87cc0d56cc58f2c4a63b89253bd7462dad30ab2acdf27fe7bfa9255f532",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJpjyV267D2DMFWwZWgcb3NZE7iEHNKd0242V+qHfIkIKp3BheWxvYWTESpcCFMQghXHYfMDVbMWPLEpjuJJTvXRi2tMKsqzfJ/57+pJV9TLEIFt2HeJx/wV5mZz7IFPkiUC3c1NRbNYZx9xtcsQ6HW7KAgHCo3NpZ8RAUuMawc2bRzAlfL9apIkver8Pv1GD9Lo7KZkljv54Y7MeLG2uKwHZ3f2oQhJ6GPdBB7GM733Ld5R8micml64eBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGHhq8NuSDu4dC0FWjHpNjyYAakUjTXYdBX5H42pEzKmo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thecoin405
+
+==================================================================
